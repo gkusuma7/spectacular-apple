@@ -2,125 +2,123 @@
 title: Home
 sidebar:
   entries:
-    - title: Welcome
+    - is_primary: true
+      title: Welcome
       url: '#intro'
-      is_primary: true
-    - title: Who we are
+    - is_primary: false
+      title: Who we are
       url: '#one'
-      is_primary: false
-    - title: What we do
+    - is_primary: false
+      title: What we do
       url: '#two'
-      is_primary: false
-    - title: Get in touch
+    - is_primary: false
+      title: Get in touch
       url: '#three'
-      is_primary: false
 sections:
-  - type: intro
-    title: Hyperspace
-    subtitle: |-
-      Cras aliquam amet adipiscing nibh faucibus suscipit ut Parturient  
-      col accumsan est arcu donec sed Eleifend Integer.
-    section_id: intro
-    background_style: style1
-    actions:
-      - label: Learn more
-        url: '#one'
+  - actions:
+      - is_primary: false
         is_scrolly: true
-        is_primary: false
-    component: Intro
-  - type: spotlights
-    title: Spotlights Section
-    section_id: one
-    background_style: style2
-    component: Spotlights
-  - type: features
-    title: What we do
-    subtitle: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
-    section_id: two
-    background_style: style3
-    features_list:
-      - title: Lorem ipsum amet
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-code
-      - title: Aliquam sed nullam
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-lock
-      - title: Sed erat ullam corper
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-cog
-      - title: Veroeros quis lorem
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-desktop
-      - title: Urna quis bibendum
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-chain
-      - title: Aliquam urna dapibus
-        text: >-
-          Phasellus convallis elit id ullam corper amet et pulvinar. Duis
-          aliquam turpis mauris, sed ultricies erat dapibus.
-        icon: fa-diamond
-    actions:
-      - label: Learn more
-        url: /generic
-        is_scrolly: false
-        is_primary: false
-    component: Features
-  - type: contact
-    title: Get in touch
-    text: >-
-      Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis
-      mauris, eu ultricies erat malesuada quis. Aliquam dapibus, lacus eget
-      hendrerit bibendum, urna est aliquam sem, sit amet imperdiet est velit
-      quis lorem.
-    section_id: three
+        label: Learn more
+        url: '#one'
     background_style: style1
+    component: Intro
+    section_id: intro
+    subtitle: >-
+      Your Life is protected when you are alone and met with a car accident and
+      We will launch a smart watch which can detect the heartbeat, fall
+      detection and blood pressure which protect your life not only in cars
+      anywhere else. Our major goal is to protect the people’s life.
+    title: Safety and Medical Alert System
+    type: intro
+  - background_style: style2
+    component: Spotlights
+    section_id: one
+    title: Spotlights Section
+    type: spotlights
+  - actions:
+      - is_primary: false
+        is_scrolly: false
+        label: Learn more
+        url: /generic
+    background_style: style3
+    component: Features
+    features_list:
+      - icon: ''
+        text: >-
+          Your Life is protected when you are alone and met with a car accident.
+          We will have a smart watch which can detect the heartbeat and blood
+          pressure which protect your life not only in cars anywhere else. Our
+          major goal is to protect the people’s life.
+        title: Vision Statement
+      - icon: fa-lock
+        text: >-
+          We provide easily accessible and user-friendly mobile application. A
+          small device which can be easily carried which is need to be connected
+          to the car and a smart watch which can protect your life when you are
+          helpless. We have fairly price. We have a friendly support system if
+          you have any issues or queries you can contact us anytime.
+        title: Value Proposition
+      - icon: fa-cog
+        text: "Risks have been taken care and some risks which mentioned below will be taken care by you.\n\n1) Battery life of the mobile.\n\n2) When the smart watch is being taken off or dropped.\rFor this risk we advise the customers to not to remove the smart watch and also if it is dropped, we will arrange an alert to the mobile so that you will be aware if it is dropped."
+        title: Risks and Solutions.
+      - icon: fa-desktop
+        text: >-
+          We have 24/7 support team and we will clear all your queries and we
+          will be monitored to not to have any malfunction.
+        title: Support Team
+      - icon: fa-chain
+        text: "Strengths: \r\n\n•\tCan recognize that people are not in safe and keep a track on the heart rate, car speed, blood pressure.\r\n\n•\tMonitored every single minute and it is a stress reviler for the family members for who is staying away from them.\r\n\n•\tFairly price for the device.\r\n\nOpportunities:\n\n•\tRecognition.\r\n\n•\tWe can save people’s life.\r\n\n•\tCollaborative work.\r\n\n•\tWe can develop technically and also in health care."
+        title: Strengths and Opportunities.
+      - icon: fa-diamond
+        text: >-
+          Niche is the strategic approach for my venture. My venture deals with
+          the relationships between the people, saving the lives, Market
+          segmentation deals with most of the old age people and the people who
+          are bothered about their loved ones driving.
+        title: Strategic Approach
+    section_id: two
+    subtitle: " Now let’s discuss about the system, if someone meets\r with a road accident and became unconscious, so that the person/persons in\r the car cannot contact emergency services, then our alert system comes into\rthe picture. There will be a device which is connected to the OBD port in the\r car and there is also a mobile application which is connected to the device. If\r the engine has a sudden drop then with the help of the engine control unit the\r device sends a signal to the mobile application. In the mobile application we\r will already configure the emergency services contact numbers like ambulance,\rhospitals, police service and also main family members, When the device sends\r an alert to the mobile application it will give a message to all the saved\r contacts with the GPS location.\n\nIn addition to the above we will have a watch which detects the heartbeat, fall detection and blood pressure, We will upgrade the mobile application to the get an alert from the watch, If there is a sudden drop and more drop in the heartbeat and blood pressure then the mobile notifies the ambulance otherwise it just sends an alert to the family members."
+    title: What we do
+    type: features
+  - background_style: style1
+    component: Contact
     contact_list:
-      - title: Address
-        text: |-
+      - text: |-
           12345 Somewhere Road #654
           Nashville, TN 00000-0000
           USA
-      - title: Email
-        text: user@Hyperspace.tld
+        title: Address
+      - text: user@Hyperspace.tld
+        title: Email
         url: '#'
-      - title: Phone
-        text: (000) 000-0000
+      - text: (000) 000-0000
+        title: Phone
+    section_id: three
     social:
-      title: Social
       social_icons:
-        - title: Twitter
-          icon: fa-twitter
+        - icon: fa-twitter
+          title: Twitter
           url: '#'
-        - title: Facebook
-          icon: fa-facebook
+        - icon: fa-facebook
+          title: Facebook
           url: '#'
-        - title: GitHub
-          icon: fa-github
+        - icon: fa-github
+          title: GitHub
           url: '#'
-        - title: Instagram
-          icon: fa-instagram
+        - icon: fa-instagram
+          title: Instagram
           url: '#'
-        - title: LinkedIn
-          icon: fa-linkedin
+        - icon: fa-linkedin
+          title: LinkedIn
           url: '#'
-    component: Contact
+      title: Social
+    text: ''
+    title: Get in touch
+    type: contact
 menus:
   main:
     title: Home
     weight: 1
 template: home
 ---
+
