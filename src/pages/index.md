@@ -84,14 +84,14 @@ sections:
     component: Contact
     contact_list:
       - text: |-
-          12345 Somewhere Road #654
-          Nashville, TN 00000-0000
-          USA
+          601 631 MACDonald Avenue
+          Sault Ste.Marie
+          P6B 6A7
         title: Address
-      - text: user@Hyperspace.tld
+      - text: gkusuma7@gmail.com
         title: Email
         url: '#'
-      - text: (000) 000-0000
+      - text: (789) 989-8030
         title: Phone
     section_id: three
     social:
