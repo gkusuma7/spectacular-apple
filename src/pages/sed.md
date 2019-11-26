@@ -1,6 +1,6 @@
 ---
-title: Sed ipsum dolor
-content_img_path: ''
+title: Example Page.
+content_img_path: /images/download.jpg
 home_spotlights:
   enabled: true
   excerpt: Example page.
