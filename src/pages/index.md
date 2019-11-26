@@ -91,7 +91,7 @@ sections:
       - text: gkusuma7@gmail.com
         title: Email
         url: '#'
-      - text: (789) 989-8030
+      - text: (705) 989-8030
         title: Phone
     section_id: three
     social:
